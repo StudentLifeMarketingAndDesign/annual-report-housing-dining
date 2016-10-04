@@ -25,14 +25,15 @@ module.exports = function(grunt) {
       js:{
         src: [
           'division-bar/js/division-bar.js',
-          '<%=globalConfig.themeDir %>/bower_components/bootstrap/js/affix.js',
-          '<%=globalConfig.themeDir %>/bower_components/isotope/dist/isotope.pkgd.js',
-          '<%=globalConfig.themeDir %>/bower_components/jquery.scrollTo/jquery.scrollTo.js',
-          '<%=globalConfig.themeDir %>/bower_components/history.js/scripts/bundled/html4+html5/jquery.history.js',
-          '<%=globalConfig.themeDir %>/js/plugins/socialcount.min.js',
-          '<%=globalConfig.themeDir %>/js/plugins/ajaxify-html5.js',
-          '<%=globalConfig.themeDir %>/js/plugins/jquery.fitvids.js',
-          '<%=globalConfig.themeDir %>/js/main.js'
+          'annual-report-project/bower_components/bootstrap/js/affix.js',
+          'annual-report-project/bower_components/isotope/dist/isotope.pkgd.js',
+          'annual-report-project/bower_components/jquery.scrollTo/jquery.scrollTo.js',
+          'annual-report-project/bower_components/history.js/scripts/bundled/html4+html5/jquery.history.js',
+          'annual-report-project/js/plugins/socialcount.min.js',
+          'annual-report-project/js/plugins/ajaxify-html5.js',
+          'annual-report-project/js/plugins/jquery.fitvids.js',
+          'annual-report-project/js/main.js',
+          '<%=globalConfig.themeDir %>/js/app.js'
         ],
         dest: '<%=globalConfig.themeDir %>/build/build.src.js'
       }
@@ -51,7 +52,11 @@ module.exports = function(grunt) {
 
     watch: {
       scripts: {
-        files: ['<%=globalConfig.themeDir %>/js/*.js', '<%=globalConfig.themeDir %>/js/**/*.js'],
+        files: ['<%=globalConfig.themeDir %>/js/*.js', 
+                '<%=globalConfig.themeDir %>/js/**/*.js',
+                'annual-report-project/js/*.js', 
+                'annual-report-project/js/**/*.js', 
+        ],
         tasks: ['concat', 'uglify'],
         options: {
           spawn: true,

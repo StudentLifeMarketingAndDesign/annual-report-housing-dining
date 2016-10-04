@@ -4,12 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "af4bd067af4ed682453d4992afe8a25e",
-    "content-hash": "b6020e03688b61775d637d0f76f2d002",
+    "hash": "b1856cfabe0f18c8584da1b2a31b3abe",
+    "content-hash": "c895dab3fd3a28b451420e6f3bfea651",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "dev-master",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
@@ -115,6 +115,34 @@
             "time": "2016-08-13 20:53:52"
         },
         {
+            "name": "md/annual-report-project",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StudentLifeMarketingAndDesign/annual-report-project.git",
+                "reference": "ecf59c528cc1b9f51b202fdbe2cec6234645eae0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/annual-report-project/zipball/ecf59c528cc1b9f51b202fdbe2cec6234645eae0",
+                "reference": "ecf59c528cc1b9f51b202fdbe2cec6234645eae0",
+                "shasum": ""
+            },
+            "require": {
+                "md/division-bar": "*",
+                "php": ">=5.3.2",
+                "silverstripe/cms": "3.4.1",
+                "silverstripe/framework": "3.4.1"
+            },
+            "type": "library",
+            "description": "Division of Student Life Annual Report Project",
+            "support": {
+                "source": "https://github.com/StudentLifeMarketingAndDesign/annual-report-project/tree/master",
+                "issues": "https://github.com/StudentLifeMarketingAndDesign/annual-report-project/issues"
+            },
+            "time": "2016-10-04 16:47:59"
+        },
+        {
             "name": "md/division-bar",
             "version": "dev-master",
             "source": {
@@ -145,42 +173,6 @@
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-bar/issues"
             },
             "time": "2016-08-31 18:05:37"
-        },
-        {
-            "name": "silverstripe-themes/simple",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silverstripe-themes/silverstripe-simple.git",
-                "reference": "c8f07c500f2fd55ad00d9b743b53ace392eab3bf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/c8f07c500f2fd55ad00d9b743b53ace392eab3bf",
-                "reference": "c8f07c500f2fd55ad00d9b743b53ace392eab3bf",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "*",
-                "silverstripe/framework": ">=3.0"
-            },
-            "type": "silverstripe-theme",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sara Tušar (Innovaif)",
-                    "homepage": "http://www.saratusar.com"
-                }
-            ],
-            "description": "The SilverStripe simple theme (default SilverStripe 3 theme)",
-            "keywords": [
-                "silverstripe",
-                "theme"
-            ],
-            "time": "2016-02-16 22:42:40"
         },
         {
             "name": "silverstripe/cms",
@@ -378,8 +370,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "silverstripe/cms": 0,
-        "silverstripe/framework": 0
+        "md/annual-report-project": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
