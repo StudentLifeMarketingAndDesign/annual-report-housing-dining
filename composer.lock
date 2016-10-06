@@ -120,12 +120,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/annual-report-project.git",
-                "reference": "ac904ef623a501834a250e64722ac963f3ecaf42"
+                "reference": "22f2bb9edb9c2b0207900516b96aa3fa8230b001"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/annual-report-project/zipball/ac904ef623a501834a250e64722ac963f3ecaf42",
-                "reference": "ac904ef623a501834a250e64722ac963f3ecaf42",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/annual-report-project/zipball/22f2bb9edb9c2b0207900516b96aa3fa8230b001",
+                "reference": "22f2bb9edb9c2b0207900516b96aa3fa8230b001",
                 "shasum": ""
             },
             "require": {
@@ -141,7 +141,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/annual-report-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/annual-report-project/issues"
             },
-            "time": "2016-10-04 20:12:44"
+            "time": "2016-10-06 17:11:12"
         },
         {
             "name": "md/division-bar",
