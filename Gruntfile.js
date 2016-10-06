@@ -26,8 +26,10 @@ module.exports = function(grunt) {
         src: [
           'division-bar/js/division-bar.js',
           'annual-report-project/bower_components/bootstrap/js/affix.js',
+          'annual-report-project/bower_components/bootstrap/js/transition.js',
+          'annual-report-project/bower_components/bootstrap/js/collapse.js',
           'annual-report-project/bower_components/isotope/dist/isotope.pkgd.js',
-          'annual-report-project/bower_components/jquery.scrollTo/jquery.scrollTo.js',
+          'annual-report-project/js/plugins/jquery-scrollto.js',
           'annual-report-project/bower_components/history.js/scripts/bundled/html4+html5/jquery.history.js',
           'annual-report-project/js/plugins/socialcount.min.js',
           'annual-report-project/js/plugins/ajaxify-html5.js',
@@ -65,7 +67,10 @@ module.exports = function(grunt) {
       css: {
         files: ['<%=globalConfig.themeDir %>/scss/*.scss',
                 '<%=globalConfig.themeDir %>/scss/**/*.scss',
-                '<%=globalConfig.themeDir %>/scss/**/**/*.scss'
+                '<%=globalConfig.themeDir %>/scss/**/**/*.scss',
+                'annual-report-project/scss/*.scss',
+                'annual-report-project/scss/**/*.scss',
+                'annual-report-project/scss/**/**/*.scss',
                 ],
         tasks: ['sass'],
         options: {

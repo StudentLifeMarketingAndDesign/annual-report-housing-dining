@@ -30,11 +30,5 @@ class Page_Controller extends ContentController {
 		parent::init();
 
 	}
-
-	public function Issues(){
-		return Issue::get();
-	}
-
-	
 	
 }
